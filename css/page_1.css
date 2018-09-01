@@ -1,0 +1,204 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	display: -webkit-flex;
+	/*justify-content: center;*/
+	align-items: center;
+}
+
+.page_style{
+	border-width: 0 1px 0 2px;
+	border-style: solid;
+	border-color: #dfdfdf;
+	width: 700px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+#content{
+	width: 100%;
+	height: 638px;
+	transform: rotateX(20deg);
+	transform-style: preserve-3d; 
+}
+
+.page_1{
+	/*display: none;*/
+	animation: rotateOut 2s ease-in-out 8s;
+	animation-fill-mode: forwards;
+	transform-origin:0 0;
+	z-index: 10;
+	background: #fff;
+}
+
+
+
+img{
+	width: 100%;
+	display: block;
+	/*position: absolute;*/
+}
+
+.mark{
+	width: 120px;
+	height: auto;
+	position: absolute;
+	bottom: 0px;
+}
+
+.mark_page1{
+	left: 170px;
+	transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 1s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;	
+}
+
+.girl{
+	width: 100px;
+	height: auto;
+	position: absolute;
+	bottom: 0px;
+	right: 170px;
+	transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 1s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;
+}
+
+.bubble{
+	width: 160px;
+	height: auto;
+	position: absolute;
+	bottom: 180px;
+	left: 260px;
+	opacity: 0;
+
+}
+
+.fadein{
+	animation: FadeIn 3s ease;
+/*	animation-fill-mode: forwards;	*/
+}
+
+@keyframes FadeIn{
+	0%{
+		opacity: 0;
+	}
+	20%{
+		opacity: 1;
+	}
+	80%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+.love{
+	width: 160px;
+	height: auto;
+	position: absolute;
+	bottom: 180px;
+	left: 260px;
+	opacity: 0;	
+	animation: flashOut 4s linear 2s 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes flashOut{
+	0%{
+		opacity: 0;
+	}
+	20%{
+		opacity: 1;
+	}
+	40%{
+		opacity: 0;
+	}
+	60%{
+		opacity: 1;
+	}
+	80%{
+		opacity: 0;
+	}
+	/*85%{
+		opacity: 1;
+	}*/
+	90%{
+		opacity: 1;
+	}
+	/*95%{
+		opacity: 1;
+	}*/
+	100%{
+		opacity: 0;
+	}
+}
+
+.broke{
+	width: 160px;
+	height: auto;
+	position: absolute;
+	bottom: 180px;
+	left: 260px;
+	opacity: 0;	
+	animation: brokeIn 1s linear 6s 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes brokeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+.voiceover{
+	width: 600px;
+	position: absolute;
+	font-size: 30px;
+	font-family: Consolas, Microsoft YaHei;
+	color: #fff;
+	top: 20px;
+	left: 50px;
+
+}
+
+.voiceover1{
+	position: absolute;
+	opacity: 0;
+	transform: translate3d(0, -3000px, 0);
+	animation: bounceInDown 1s ease 0s;
+	animation-fill-mode: forwards;	
+}
+
+.voiceover2{
+	position: absolute;
+	opacity: 0;
+	transform: translate3d(0, -3000px, 0);
+	animation: bounceInDown 1s ease 3.5s;
+	animation-fill-mode: forwards;	
+}
+
+.FadeOut{
+	position: absolute;
+	animation: fadeOut 1s ease;
+	animation-fill-mode: forwards;	
+}

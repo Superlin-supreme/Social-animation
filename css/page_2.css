@@ -1,0 +1,249 @@
+.page_2{
+	z-index: 9;
+	/*display: none;*/
+	animation: rotateOut 2s ease-in-out 28s;
+	animation-fill-mode: forwards;
+	transform-origin:0 0;
+}
+
+.page_makeWeb{
+	width: 700px;
+	height: 100%;
+	position: absolute;
+	animation: fadeOut 1.5s ease 19s;
+	animation-fill-mode: forwards;
+	z-index: 2;
+	/*display: none;*/
+}
+
+.bg_img{
+	height: 100%;
+	width: auto;
+}
+
+.mark_back{
+	width: 180px;
+	height: auto;
+	position: absolute;
+	bottom: 0px;
+	right: 75px;
+	transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 8s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;
+	z-index: 1;
+}
+
+/*.mark_back_out{
+	transform: rotateX(0deg);
+	animation: rotateOutDown 1s ease 12s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;
+}*/
+
+.yunduo{
+	width: 430px;
+	position: absolute;
+	left: 40px;
+	top: 50px;
+	opacity: 0;
+	animation: fadeIn 1s ease 8s;
+	animation-fill-mode: forwards;
+}
+
+.tuo{
+	width: 325px;
+	position: absolute;
+	left: 90px;
+	top: 95px;
+	opacity: 0;
+	animation: fadeIn 1s ease 8s;
+	animation-fill-mode: forwards;
+}
+
+.bomb{
+	width: 80px;
+	position: absolute;
+	right: 130px;
+	bottom: 320px;
+	opacity: 0;
+}
+
+.bomb_1{
+	animation: bombfly_1 2s ease 9s;
+	animation-fill-mode: forwards;	
+}
+
+.bomb_2{
+	animation: bombfly_2 2s ease 9.5s;
+	animation-fill-mode: forwards;	
+}
+
+.bomb_3{
+	animation: bombfly_3 2s ease 10s;
+	animation-fill-mode: forwards;	
+}
+
+.boom{
+	width: 80px;
+	position: absolute;
+	opacity: 0;
+}
+
+.boom_1{
+	left: 80px;
+	top: 160px; 
+	animation: zoomIn 1s ease 11s;	
+}
+.boom_2{
+	left: 155px;
+	top: 75px;
+	animation: zoomIn 1s ease 11.5s;	 
+}
+.boom_3{
+	left: 155px;
+	top: 225px; 
+	animation: zoomIn 1s ease 12s;	
+}
+
+.girl_pic{
+	width: 60px;
+	position: absolute;
+	left: 92px;
+	top: 160px; 
+	opacity: 0;
+}
+
+.girl_1{
+	/*opacity: 1;
+	transform: translate(385px,100px);*/
+	animation: girlfly 2s ease 13s;
+	animation-fill-mode: forwards;
+}
+
+.girl_2{
+	animation: girlfly 2s ease 13.5s;
+}
+
+.girl_3{
+	animation: girlfly 2s ease 14s;
+}
+
+.girl_4{
+	animation: girlfly 2s ease 14.5s;
+}
+
+.girl_5{
+	animation: girlfly 2s ease 15s;
+}
+
+.page_Web{
+	width: 700px;
+	height: 100%;
+	position: absolute;
+	background: #fff;
+	z-index: 1;
+}
+
+.Web_head{
+	width: 700px;
+	height: 120px;
+	background: #DE5246;
+	position: relative;
+	font-family: Century Gothic, Microsoft YaHei;
+	font-size: 60px;
+	line-height: 120px;
+	color: #fff;
+	text-align: center;
+}
+
+.Web_question p{
+	transform: translate3d(0, -3000px, 0);
+	animation: bounceInDown 1s ease 19.5s;
+	animation-fill-mode: forwards;
+}
+
+.Web_question{
+	width: 700px;
+	height: 200px;
+	font-family: Microsoft MHei, Microsoft YaHei;
+	text-align: center;
+	color: #211E1E;
+}
+
+.Web_question .p1{
+	font-size: 40px;
+	margin-top: 10px;
+}
+
+.Web_question .p2{
+	font-size: 30px;
+	margin: 20px auto;
+}
+
+.pick_pic{
+	width: 440px;
+	position: relative;
+	margin: 40px auto;
+}
+
+.web_pic{
+	width: 200px;
+	opacity: 0;
+	box-shadow: 0 0 20px #dfdfdf;
+	animation: zoomIn 1s ease 19.5s;
+	animation-fill-mode: forwards;
+}
+
+.web_pic_1{
+	float: left;
+}
+
+.web_pic_2{
+	float: right;
+}
+
+.voiceover_page21{
+	width: 600px;
+	position: absolute;
+	font-size: 20px;
+	font-family: Consolas, Microsoft YaHei;
+	color: #000;
+	top: 20px;
+	left: 50px;
+}
+
+.voiceover3{
+	opacity: 0;
+	position: absolute;
+	animation: voiceStayII 5.5s linear 9s;
+}
+
+.voiceover4{
+	opacity: 0;
+	position: absolute;
+	animation: voiceStayII 4.5s linear 14.5s;
+}
+
+.voiceover_page22{
+    width: 565px;
+    height: 45px;
+    position: absolute;
+    font-size: 20px;
+    font-family: Consolas, Microsoft YaHei;
+    color: #000;
+    bottom: 10px;
+    left: 69px;
+}
+
+.voiceover5{
+	opacity: 0;
+	position: absolute;
+	animation: voiceStayII 5.5s linear 19s;
+}
+
+.voiceover6{
+	opacity: 0;
+	position: absolute;
+	animation: voiceStayII 4s linear 24.5s;
+}

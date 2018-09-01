@@ -1,0 +1,95 @@
+.page_4{
+    z-index: 7;
+	/*display: none;*/
+    animation: rotateOut 2s ease-in-out 51s;
+    animation-fill-mode: forwards;
+    transform-origin:0 0;
+}
+
+.mark_page4{
+	right: 120px; 
+    transform: rotateX(90deg);
+    animation: rotateInDown 1s ease 40s;
+    animation-fill-mode: forwards;
+    transform-origin:0 100%;
+}
+
+.Educardo{
+	width: 125px;
+	height: auto;
+	position: absolute;
+	bottom: 0px;	
+}
+
+.Educardo_page4{
+	left: 120px;
+    transform: rotateX(90deg);
+    animation: rotateInDown 1s ease 40s;
+    animation-fill-mode: forwards;
+    transform-origin:0 100%;
+}
+
+.page4_code{
+    width: 70px;
+    position: absolute;
+    bottom: 28px;
+    right: 70px;
+    opacity: 0;
+    animation: codefly 3s ease 40s 2;
+}
+
+.page4_money{
+    width: 70px;
+    position: absolute;
+    bottom: 28px;
+    left: 70px;	
+    opacity: 0;
+    animation: moneyfly 3s ease 40s 2;
+}
+
+.page4_friend{
+    width: 70px;
+    position: absolute;
+    bottom: 28px;
+    left: 235px;
+    opacity: 0;
+    animation: friendfly 3s ease 40s 2;	
+}
+
+.page4_product{
+	width: auto;
+    position: absolute;
+    bottom: 218px;
+    right: 85px;
+    font-family: Microsoft YaHei;
+    font-size: 22px;
+    background: #3B5997;
+    color: #FCFCFC;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    animation: fadeIn 1s ease 46s;
+    animation-fill-mode: forwards;
+}
+
+.voiceover_page4{
+    width: 600px;
+    position: absolute;
+    font-size: 22px;
+    font-family: Consolas, Microsoft YaHei;
+    color: #000;
+    top: 42px;
+    left: 66px;
+}
+
+.voiceover9{
+    position: absolute;
+    opacity: 0;
+    animation: voiceStayII 9s linear 39s;
+}
+
+.voiceover10{
+    position: absolute;
+    opacity: 0;
+    animation: voiceStayII 4s linear 48s;
+}

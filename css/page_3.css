@@ -1,0 +1,145 @@
+.page_3{
+	z-index: 8;
+	/*display: none;*/
+	animation: rotateOut 2s ease-in-out 39s;
+	animation-fill-mode: forwards;
+	transform-origin:0 0;
+}
+
+.winklevoss{
+	width: 135px;
+	height: auto;
+	position: absolute;
+	bottom: 0px;
+}
+
+.winklevoss_1{
+	right: 220px;
+	transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 30s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;	
+}
+
+.winklevoss_2{
+	right: 40px;
+	transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 30s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;		
+}
+
+.mark_page3{
+	left: 100px;
+	transform: rotateX(90deg);
+	animation: rotateInDown 1s ease 29s;
+	animation-fill-mode: forwards;
+	transform-origin:0 100%;
+}
+
+.page3_yunduo{
+	width: 320px;
+	position: absolute;
+	bottom: 180px;
+	right: 40px;
+	opacity: 0;
+	animation: zoomIn 1s ease 34s;
+	animation-fill-mode: forwards;
+}
+
+.page3_idea{
+	width: 50px;
+	position: absolute;
+	bottom: 240px;
+	right: 235px;
+	opacity: 0;
+	animation: fadeIn 1s ease 35s;
+	animation-fill-mode: forwards;
+	z-index: 1;	
+}
+
+.page3_money{
+	width: 70px;
+	position: absolute;
+	bottom: 245px;
+	right: 115px;
+	opacity: 0;
+	animation: fadeIn 1s ease 35s;
+	animation-fill-mode: forwards;
+	z-index: 1;		
+}
+
+.page3_yunduo2{
+	width: 250px;
+	position: absolute;
+	bottom: 210px;
+	left: 40px;
+	opacity: 0;
+	animation: zoomIn 1s ease 32s;
+	animation-fill-mode: forwards;
+}
+
+.page3_code{
+	width: 70px;
+	position: absolute;
+	bottom: 250px;
+	left: 125px;
+	opacity: 0;
+	animation: fadeIn 1s ease 33s;
+	animation-fill-mode: forwards;	
+}
+
+.page3_arrow{
+	width: 130px;
+    position: absolute;
+    top: 205px;
+    left: 250px;
+    opacity: 0;
+	animation: fadeIn 1s ease 36s;
+	animation-fill-mode: forwards;
+}
+
+.page3_yunduo3{
+	width: 240px;
+    position: absolute;
+    top: 55px;
+    left: 205px;
+     opacity: 0;
+    animation: zoomIn 1s ease 36s;
+	animation-fill-mode: forwards;
+}
+
+.page3_product{
+    width: auto;
+    position: absolute;
+    top: 122px;
+    left: 217px;
+    display: block;
+    font-family: Microsoft YaHei;
+    font-size: 22px;
+     opacity: 0;
+	animation: fadeIn 1s ease 36s;
+	animation-fill-mode: forwards;
+}
+
+.voiceover_page3{
+	width: 600px;
+	position: absolute;
+	font-size: 22px;
+	font-family: Consolas, Microsoft YaHei;
+	color: #000;
+    top: 20px;
+    left: 66px;
+}
+
+.voiceover7{
+	position: absolute;
+	opacity: 0;
+	animation: voiceStayII 4s linear 28s;
+}
+
+.voiceover8{
+	position: absolute;
+	opacity: 0;
+	animation: voiceStayII 7s linear 32s;
+}

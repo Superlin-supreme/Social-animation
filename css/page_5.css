@@ -1,0 +1,230 @@
+.page_5{
+	z-index: 6;
+	/*display: none;*/
+    animation: rotateOut 2s ease-in-out 72s;
+    animation-fill-mode: forwards;
+    transform-origin:0 0;
+    background: #FDFDFD;
+}
+
+.bg5_box{
+	width: 1200px;
+	transform: translate(140px, -50px);
+	animation: bgscale 6s ease 66s;
+	animation-fill-mode: forwards;
+	position: absolute;
+	z-index: -1;
+}
+
+
+.bg5_box .bg_5{
+	position: relative;
+}
+
+.page5_product1{
+	width: auto;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    font-family: Microsoft YaHei;
+    font-size: 22px;
+    background: #3B5997;
+    color: #FCFCFC;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.page5_product2{
+	width: auto;
+    position: absolute;
+    top: 30px;
+    left: 275px;
+    font-family: Microsoft YaHei;
+    font-size: 22px;
+    background: #3B5997;
+    color: #FCFCFC;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+    opacity: 0;
+    animation: fadeIn 1s ease 56s;
+    animation-fill-mode: forwards;	
+}
+
+.line5{
+    width: 51px;
+    left: 211px;
+    top: 53px;
+    animation: fadeIn 1s ease 55s;
+    animation-fill-mode: forwards;	   
+}
+
+.mark_page5{
+	left: 290px;
+    transform: rotateX(90deg);
+    animation: rotateInDown 1s ease 52s;
+    animation-fill-mode: forwards;
+    transform-origin:0 100%;
+}
+
+.Educardo_page5{
+	left: 80px;
+    transform: rotateX(90deg);
+    animation: rotateInDown 1s ease 52s;
+    animation-fill-mode: forwards;
+    transform-origin:0 100%;
+}
+
+
+.Shaun{
+	width: 125px;
+	height: auto;
+	position: absolute;
+	bottom: 0px;
+}
+
+.Shaun_page5{
+	right: 80px;
+	transform: rotateX(90deg);
+    animation: rotateInDown 1s ease 53s;
+    animation-fill-mode: forwards;
+    transform-origin:0 100%;	
+}
+
+.company{
+    width: 45px;
+    position: absolute;
+    left: 305px;
+    top: 270px;
+    z-index: 1;
+    animation: companyfly 2s ease 58s;
+    animation-fill-mode: forwards;
+}
+
+.flag{
+	width: 40px;
+	position: absolute;
+	transform-origin:0 100%;
+	transform: rotateX(90deg);
+	z-index: 1;
+}
+
+.flag1{
+	left: 338px;
+    top: 262px;
+    transform: rotateX(0deg);
+    /*animation: rotateInDown 1s ease 1s;
+	animation-fill-mode: forwards;*/
+}
+
+.flag2{
+    left: 255px;
+    top: 262px;
+	animation: rotateInDown 1s ease 62s;
+	animation-fill-mode: forwards;	
+}
+
+.flag3{
+	left: 275px;
+    top: 310px;
+	animation: rotateInDown 1s ease 63s;
+	animation-fill-mode: forwards;	
+}
+
+.flag4{
+	left: 175px;
+    top: 200px;
+	animation: rotateInDown 1s ease 65s;
+	animation-fill-mode: forwards;	
+}
+
+.flag5{
+	left: 232px;
+    top: 368px;
+	animation: rotateInDown 1s ease 65s;
+	animation-fill-mode: forwards;	
+}
+
+.flag6{
+	left: 357px;
+    top: 485px;
+	animation: rotateInDown 1s ease 65s;
+	animation-fill-mode: forwards;	
+}
+
+.flag7{
+    left: 423px;
+    top: 145px;
+	animation: rotateInDown 1s ease 66s;
+	animation-fill-mode: forwards;	
+}
+
+.flag8{
+	left: 657px;
+    top: 243px;
+	animation: rotateInDown 1s ease 67s;
+	animation-fill-mode: forwards;	
+}
+
+.flag9{
+    left: 724px;
+    top: 217px;
+	animation: rotateInDown 1s ease 68s;
+	animation-fill-mode: forwards;	
+}
+
+.flag10{
+    left: 855px;
+    top: 375px;
+	animation: rotateInDown 1s ease 69s;
+	animation-fill-mode: forwards;	
+}
+
+.flag11{
+    left: 759px;
+    top: 329px;
+	animation: rotateInDown 1s ease 70s;
+	animation-fill-mode: forwards;	
+}
+
+.flag12{
+    left: 948px;
+    top: 562px;
+	animation: rotateInDown 1s ease 71s;
+	animation-fill-mode: forwards;	
+}
+
+.voiceover_page5{
+	width: 600px;
+	position: absolute;
+	font-size: 22px;
+	font-family: Consolas, Microsoft YaHei;
+	color: #000;
+	top: 95px;
+	left: 70px;	
+}
+
+.voiceover11{
+    position: absolute;
+    opacity: 0;
+    animation: voiceStay 3s linear 51s;
+}
+
+.voiceover12{
+    position: absolute;
+    opacity: 0;
+    animation: voiceStayII 8s linear 54s;
+}
+
+.voiceover13{
+    position: absolute;
+    opacity: 0;
+    animation: voiceStayII 5s linear 62s;
+}
+
+.voiceover14{
+    position: absolute;
+    opacity: 0;
+    animation: voiceStayII 5s linear 67s;
+}
